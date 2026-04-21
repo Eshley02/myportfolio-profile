@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project & Achievements</title>
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+        body { background:#f4f6f9; color:#333; }
+
+        header {
+            background:#1e293b;
+            color:white;
+            padding:80px 20px;
+            text-align:center;
+        }
+        header h1 { font-size:38px; }
+        header p { margin-top:10px; font-size:18px; color:#cbd5e1; }
+
+        nav {
+            background:#334155;
+            text-align:center;
+            padding:15px;
+        }
+        nav a {
+            color:white; text-decoration:none; margin:0 20px; font-weight:500;
+        }
+        nav a:hover { color:#38bdf8; }
+
+        section { padding:60px 10%; }
+        h2 { margin-bottom:20px; color:#1e293b; }
+
+        .skills-grid, .projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+        .card {
+            background:white; padding:20px; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05); transition:0.3s;
+        }
+        .card:hover { transform:translateY(-5px); }
+
+        .contact p { margin:8px 0; }
+        .btn {
+            display:inline-block; margin-top:15px; padding:10px 20px;
+            background:#1e293b; color:white; text-decoration:none; border-radius:5px;
+        }
+        .btn:hover { background:#334155; }
+
+        footer { text-align:center; padding:20px; background:#1e293b; color:white; }
+
+       
+    </style>
+</head>
+<body>
+    
+    <nav>
+    <a href="about.html">About</a>
+    <a href="Skills.html">Skills</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+    <section id="projects">
+    <h2>Projects & Achievements</h2>
+    <div class="projects-grid">
+
+        <div class="card">
+            <h3>Student Portal System</h3>
+            <p>Database-driven system for managing student results, attendance, and timetable using PHP & MySQL.</p>
+        </div>
+
+        <div class="card">
+            <h3>Attendance Management System</h3>
+
+            <p>Web application to track attendance with real-time updates and reporting functionality.</p>
+        </div>
+
+        <div class="card">
+            <h3>Time Table System</h3>
+            <p>Interactive timetable layout for students, built with HTML, CSS, and PHP backend for scheduling management.</p>
+        </div>
+
+        <div class="card">
+            <h3>Other Modules</h3>
+            <p>Completed additional modules in IT fundamentals, networking, system administration, software development, technical programming and software engineering.</p>
+        </div>
+        <div class="card">
+            <h3>Figma Mobile Application Development </h3>
+           <p> Wedding boutique</p>
+           <p>Food Ordering App</p>
+        </div>  
+        <div class="card">
+            <h3>Cisco Certifications: </h3>
+           <p> Computer Hardware Basics</p>
+           <p>C++ Essentials 1</p>
+           <p>Networking Basics</p>
+           <p>Introduction to Modern AI</p>
+           <P>Introduction to Cybersecurity</P>
+           <p>IT Essentials:PC Hardware and Software</p>
+        </div>  
+    </div>
+</section>
+         <a href="My Projects Designs Prototype.pdf" class="btn"> Click here for figma designs</a>
+          
+</body>
+</html>
